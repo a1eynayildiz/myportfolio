@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aleyna Yıldız | Backend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Genel Temel Ayarlar */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(120deg, #4ecdc4, #556270);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            color: #fff;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background: url('1752414649790.png') no-repeat center/cover;
+            border: 6px solid #fff;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .title {
+            font-size: 1.2rem;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 6px 14px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+
+        .about {
+            font-size: 1.1rem;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 50px;
+        }
+
+        .skill {
+            background: #fff;
+            color: #333;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: 0.3s ease;
+        }
+
+        .skill:hover {
+            background: #ff6b6b;
+            color: #fff;
+        }
+
+        .social {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            background: rgba(255,255,255,0.1);
+            padding: 12px 20px;
+            border-radius: 30px;
+            transition: 0.3s ease;
+        }
+
+        .social a:hover {
+            background: #fff;
+            color: #000;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2.3rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="profile">
+            <div class="profile-img"></div>
+            <div class="title">Backend Developer </div>
+            <h1>Aleyna Yıldız</h1>
+            <p class="about">
+                Bilgisayar Mühendisliği öğrencisi olarak Python, Django ve RESTful API alanlarına ilgiliyim.
+                Öğrenmeye ve yaratıcı projeler geliştirmeye açığım. Kod yazarken hem teknik hem de yaratıcı düşünmeyi seviyorum.
+            </p>
+        </section>
+
+        <section class="skills">
+            <span class="skill">Python</span>
+            <span class="skill">Django</span>
+            <span class="skill">Django REST Framework</span>
+            <span class="skill">PostgreSQL</span>
+            <span class="skill">RESTful APIs</span>
+            <span class="skill">Celery</span>
+            <span class="skill">Git & GitHub</span>
+        </section>
+
+        <section class="social">
+            <a href="https://github.com/a1eynayildiz" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/aleynayildiz1" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://www.instagram.com/al.ynayildiz" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://medium.com/@aleynayildizz" target="_blank"><i class="fab fa-medium"></i> Medium</a>
+        </section>
+
+        
+    </div>
+</body>
+</html>
